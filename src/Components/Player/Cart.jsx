@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 
-const Available = ({player}) => {
+const Cart = ({player}) => {
     return (
        <div className="card bg-base-100  shadow-sm ">
   <figure>
@@ -30,4 +30,4 @@ const Available = ({player}) => {
     );
 };
 
-export default Available;
+export default Cart;
