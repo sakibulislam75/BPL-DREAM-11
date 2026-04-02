@@ -1,0 +1,91 @@
+[{
+        "id": 1,
+        "player_name": "Virat Kohli Jr",
+        "country": "India",
+        "type": "batsman",
+        "batting_hand": "right-hand",
+        "price": "$3999",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 2,
+        "player_name": "Rohit Sharma Hitman",
+        "country": "India",
+        "type": "batsman",
+        "batting_hand": "right-hand",
+        "price": "$3799",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 3,
+        "player_name": "Jos Buttler Pro",
+        "country": "England",
+        "type": "batsman",
+        "batting_hand": "right-hand",
+        "price": "$3599",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 4,
+        "player_name": "Ben Stokes Beast",
+        "country": "England",
+        "type": "all-rounder",
+        "batting_hand": "left-hand",
+        "price": "$3499",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 5,
+        "player_name": "Ravindra Jadeja Sir",
+        "country": "India",
+        "type": "all-rounder",
+        "batting_hand": "left-hand",
+        "price": "$3699",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 6,
+        "player_name": "Hardik Pandya Power",
+        "country": "India",
+        "type": "all-rounder",
+        "batting_hand": "right-hand",
+        "price": "$3899",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 7,
+        "player_name": "Jasprit Bumrah Yorker King",
+        "country": "India",
+        "type": "bowler",
+        "batting_hand": "right-hand",
+        "price": "$4299",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 8,
+        "player_name": "Rashid Khan Magic",
+        "country": "Afghanistan",
+        "type": "bowler",
+        "batting_hand": "right-hand",
+        "price": "$4099",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 9,
+        "player_name": "Suryakumar Yadav Sky",
+        "country": "India",
+        "type": "batsman",
+        "batting_hand": "right-hand",
+        "price": "$3299",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    },
+    {
+        "id": 10,
+        "player_name": "Trent Boult Swing Master",
+        "country": "New Zealand",
+        "type": "bowler",
+        "batting_hand": "left-hand",
+        "price": "$3099",
+        "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
+    }
+]
