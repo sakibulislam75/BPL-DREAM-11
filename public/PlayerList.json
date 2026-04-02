@@ -4,7 +4,7 @@
         "country": "India",
         "type": "batsman",
         "batting_hand": "right-hand",
-        "price": "$3999",
+        "price": "500",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -13,7 +13,7 @@
         "country": "India",
         "type": "batsman",
         "batting_hand": "right-hand",
-        "price": "$3799",
+        "price": "3799",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -22,7 +22,7 @@
         "country": "England",
         "type": "batsman",
         "batting_hand": "right-hand",
-        "price": "$3599",
+        "price": "3599",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -31,7 +31,7 @@
         "country": "England",
         "type": "all-rounder",
         "batting_hand": "left-hand",
-        "price": "$3499",
+        "price": "3499",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -40,7 +40,7 @@
         "country": "India",
         "type": "all-rounder",
         "batting_hand": "left-hand",
-        "price": "$3699",
+        "price": "49500",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -49,7 +49,7 @@
         "country": "India",
         "type": "all-rounder",
         "batting_hand": "right-hand",
-        "price": "$3899",
+        "price": "3899",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -58,7 +58,7 @@
         "country": "India",
         "type": "bowler",
         "batting_hand": "right-hand",
-        "price": "$4299",
+        "price": "4299",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -67,7 +67,7 @@
         "country": "Afghanistan",
         "type": "bowler",
         "batting_hand": "right-hand",
-        "price": "$4099",
+        "price": "4099",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -76,7 +76,7 @@
         "country": "India",
         "type": "batsman",
         "batting_hand": "right-hand",
-        "price": "$3299",
+        "price": "3299",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     },
     {
@@ -85,7 +85,7 @@
         "country": "New Zealand",
         "type": "bowler",
         "batting_hand": "left-hand",
-        "price": "$3099",
+        "price": "3099",
         "img": "https://i.ibb.co/xSqWZsLw/virat-kohli-india-sa-2nd-t20-1568864911.jpg"
     }
 ]

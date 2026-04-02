@@ -1,6 +1,8 @@
 import React, { use, useState } from 'react';
 import Cart from './Cart';
-const Available = ({ data }) => {
+
+import SelectedPlayer from './SelectedPlayer';
+const Available = ({ data ,coin,setCoin}) => {
     const data1=use(data);
     const [selectedButton,setSelectedButton]=useState('available');
     return (
@@ -15,12 +17,15 @@ const Available = ({ data }) => {
         <button onClick={()=>setSelectedButton('selected')} class={`btn  rounded-l-none rounded-r-2xl ${selectedButton === 'selected' ? 'bg-[#E7FE29]' : 'bg-gray-300'}`}>Selected</button>
 
     </div>
+     
 </div>
         <div className='mt-5 w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 '>
-        {
-        data1.map(item=><Cart key={item.id} player={item}></Cart>)
-        }
+     {
+        selectedButton === 'available' ? data1.map(item=><Cart key={item.id} player={item} coin={coin} setCoin={setCoin}></Cart>) : <SelectedPlayer player={data1}></SelectedPlayer>
+     }
+     
         </div>
+         
         </>
     );
 };

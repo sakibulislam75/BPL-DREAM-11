@@ -1,5 +1,6 @@
 
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
+ import { ToastContainer, toast } from 'react-toastify';
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
@@ -11,15 +12,17 @@ const Data=async()=>{
 function App() {
 
 const data=Data();
+const [coin,setCoin]=useState(50000);
   return (
    <>
- <Navbar />
+ <Navbar coin={coin} />
  <Banner />
  <Suspense fallback={<div className='flex justify-center items-center h-screen'>
 <span className="loading loading-spinner loading-xl "></span>
  </div>}>
-  <Available data={data}></Available>
+  <Available data={data} coin={coin} setCoin={setCoin}></Available>
  </Suspense>
+  <ToastContainer />
    </>
   )
 }
