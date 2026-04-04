@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
- import { ToastContainer, toast } from 'react-toastify';
-const Cart = ({ player, coin, setCoin }) => {
+import { ToastContainer, toast } from 'react-toastify';
+const Cart = ({ player, coin, setCoin, handleSelectPlayer }) => {
     const [isSelected, setIsSelected] = useState(false);
     const handleSelect = () => {
         let newCoin = coin - player.price;
@@ -11,21 +11,21 @@ const Cart = ({ player, coin, setCoin }) => {
             setCoin(Number(coin) + Number(player.price));
             return;
         }
-        else if (newCoin > 0) {
+        else if (newCoin >= 0) {
             setCoin(newCoin);
-
+            toast.success(`You have selected ${player.player_name} for $${player.price}. Remaining coins: $${newCoin}`);
         }
         else {
             toast.error('You do not have enough coins to select this player.');
-            return;
         }
-        toast.success(`You have selected ${player.player_name} for $${player.price}. Remaining coins: $${newCoin}`);
+
         setIsSelected(true);
- 
+        handleSelectPlayer(player);
     }
     return (
-        <div className="card bg-base-100  shadow-sm ">
-            <figure>
+     
+          <div className="card bg-base-100  shadow-sm ">
+            <figure >
                 <img
                     src={player.img}
                     alt="Shoes" />
@@ -44,12 +44,12 @@ const Cart = ({ player, coin, setCoin }) => {
                 </div>
                 <div className="card-actions justify-between items-center">
                     <h2 className='font-bold'>Price : ${player.price}</h2>
-                    <button className="btn" onClick={handleSelect}>{isSelected == true ? 'Selected' : 'Choose Player'}</button>
+                    <button className="btn" onClick={handleSelect}>{isSelected == true ? 'Deselected' : 'Choose Player'}</button>
                 </div>
             </div>
-             
         </div>
-        
+      
+
     );
 };
 
