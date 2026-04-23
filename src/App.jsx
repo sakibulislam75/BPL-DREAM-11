@@ -5,6 +5,7 @@ import './App.css'
 import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
 import Available from './Components/Player/Available';
+import Footer from './Components/Footer/Footer';
 const Data=async()=>{
   const res=await fetch('/PlayerList.json');
   return res.json();
@@ -22,6 +23,7 @@ const [coin,setCoin]=useState(50000);
  </div>}>
   <Available data={data} coin={coin} setCoin={setCoin}></Available>
  </Suspense>
+ <Footer></Footer>
   <ToastContainer  />
    </>
   )
